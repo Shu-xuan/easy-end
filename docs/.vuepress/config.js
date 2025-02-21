@@ -3,10 +3,12 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
-  lang: 'en-US',
+  base: "/easy-end/",
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  lang: 'zh_CN',
+
+  title: 'Easy-End',
+  description: '后端笔记',
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
