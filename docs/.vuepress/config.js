@@ -14,20 +14,19 @@ export default defineUserConfig({
 
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
-    nav: [
-      // 格式一: 直接跳转，'/'为不添加路由，跳转至首页
+    navbar: [
+      // 导航栏链接: 直接跳转，'/'为不添加路由，跳转至首页
       {text: '首页', link: '/'},
-      // 格式二: 添加下拉菜单， link指向的文件路径
+      // 导航栏组: 添加下拉菜单， link指向的文件路径
       {
         text: '工具',
-        ariaLabel: '工具',
-        items: [
-          {text: 'Git', link: '/pages/tool/Git.md'}
+        prefix: '/pages/tool/',
+        children: [
+          'Git.md',
         ]
+        
       },
     ],
-
-    
 
 
   }),
