@@ -2,14 +2,12 @@
 home: true
 title: Home
 heroImage: https://vuejs.press/images/hero.png
+heroText: 枢璇的学习记录
+tagline: ...
 actions:
-  - text: Get Started
-    link: /getting-started.html
+  - text: 即刻进入→
+    link: /pages/tool/git.md
     type: primary
-
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
-    type: secondary
 
 features:
   - title: Simplicity First
@@ -27,7 +25,5 @@ features:
 
 footer: MIT Licensed | Copyright © 2018-present VuePress Community
 ---
-
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
 
 [default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
