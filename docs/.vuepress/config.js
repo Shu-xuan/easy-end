@@ -20,12 +20,18 @@ export default defineUserConfig({
       // 导航栏组: 添加下拉菜单， link指向的文件路径
       {
         text: '工具',
-        prefix: '/pages/tool/',
+        prefix: '/tools/',
         children: [
-          'Git.md',
+          'git.md',
         ]
-        
       },
+      {
+        text: '小厂八股文',
+        prefix: '/interview/',
+        children: [
+
+        ]
+      }
     ],
 
 
